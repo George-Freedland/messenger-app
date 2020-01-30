@@ -24,6 +24,7 @@ public class WebSocketHandler {
   public void connected(Session session) throws IOException {
     System.out.println("A client has connected");
     sessionMap.put(session, session);
+    System.out.println(sessionMap);
     session.getRemote().sendString(clickCountString); // and send it back
   }
 
