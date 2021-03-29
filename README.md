@@ -1,2 +1,4 @@
 # messenger-app
-A multi-user messenger application running in AWS or Heroku With ReactJS Front End and (Java, Python, PHP, or JS NodeJS) Backend either with MongoDB, mySQL, or Firebase for databases. 
+A multi-user messenger application.
+Tested deployment with AWS and Heroku.
+ReactJS for the frontend and Java, Spark, for the backend communicating with MongoDB.
